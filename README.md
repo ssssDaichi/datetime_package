@@ -1,5 +1,5 @@
 # ROS 2 DatetimeTalkerで現在日時を取得
-このROS 2パッケージは、DatetimeTalkerノードを使用して、システムの現在日時を定期的にパブリッシュします。また、DatetimeListenerノードがその時刻を受信し、出力を表示します。
+このROS 2パッケージは、DatetimeTalkerノードを使用して、システムの現在日時を定期的にパブリッシュします。また、DatetimeListenerノードがその日時を受信し、出力を表示します。
 ### 概要
 DatetimeTalker: 毎秒現在日時を取得してパブリッシュします。
 
