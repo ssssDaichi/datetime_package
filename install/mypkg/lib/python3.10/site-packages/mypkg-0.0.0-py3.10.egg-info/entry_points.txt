@@ -1,3 +1,0 @@
-[console_scripts]
-datetime_talker = mypkg.datetime_talker:main
-
