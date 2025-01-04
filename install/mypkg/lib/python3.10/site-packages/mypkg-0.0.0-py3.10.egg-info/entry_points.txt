@@ -1,0 +1,4 @@
+[console_scripts]
+datetime_listener = mypkg.datetime_listener:main
+datetime_talker = mypkg.datetime_talker:main
+
