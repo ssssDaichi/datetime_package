@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'mypkg'
+package_name = 'volume_package'
 
 setup(
     name=package_name,
@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
     'console_scripts': [
-        'datetime_talker = mypkg.datetime_talker:main',
-        'datetime_listener = mypkg.datetime_listener:main',
+        'volume_talker = volume_package.volume_talker:main',
+        'volume_listener = volume_package.volume_listener:main',
     ],
 },
 
